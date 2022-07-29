@@ -238,3 +238,63 @@ nav .navbar-btn {
     height: 34rem;
     width: 34rem;
 }
+
+/* team section  */
+.team {
+    padding: 2% 10%;
+
+}
+
+.team .team-heading {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team .team-heading h3 {
+    font-size: 2rem;
+}
+
+.team .team-heading p {
+    margin: 30px;
+}
+
+/* profile  */
+.team .team-profile {
+    display: flex;
+    gap: 70px;
+}
+
+
+
+/* profile1  */
+.team .team-profile .profile1 img {
+    height: 26rem;
+    width: 24rem;
+}
+
+/* profile2  */
+.team .team-profile .profile2 img {
+    height: 26rem;
+    width: 24rem;
+}
+
+/* profile3  */
+.team .team-profile .profile3 img {
+    height: 26rem;
+    width: 24rem;
+}
+
+.team .teambtn {
+    text-align: center;
+    padding: 50px 30rem;
+}
+
+.team .teambtn button {
+    padding: 15px 30px;
+    color: white;
+    border: 1px;
+    background-color: #8bb7a2;
+    font-size: 20px;
+    cursor: pointer;
+}
