@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navbar desighn  */
+
+.navbar {
+    background-color: #636c79;
+    padding-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2% 10%;
+}
+
+nav .nav-logo {}
+
+nav .list-items {
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+
+nav .list-items ul {
+    list-style: none;
+    display: flex;
+}
+
+nav .list-items ul li {
+    padding: 10px 3rem;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+nav .navbar-btn {
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* home desighin  */
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.home .home-left img {
+    height: 28rem;
+    width: 33rem;
+    margin-left: 2rem;
+}
+
+.home .home-right {
+    display: inline;
+    margin-left: 3rem;
+}
+
+.home .home-right h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.home .home-right p {
+    color: white;
+    margin: 15px 0px;
+    line-height: 1.5rem;
+}
+
+.home .home-right .home-right-input input {
+    padding: 25px 523px 24px 36px;
+
+}
+
+.home .home-right .home-right-input button {
+    position: absolute;
+    right: 270px;
+    padding: 24px;
+    background-color: #8bb7a2;
+    border: 1px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* information section  */
+.information {
+    padding: 2% 10%;
+}
+
+.information .info h2 {
+    font-size: 5rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.information .info .info-numbers {
+    margin: 4rem 3rem;
+}
+
+.information .info .info-numbers ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.information .info .info-numbers ul li h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.information img {
+    height: 43rem;
+    width: 85rem;
+}
+
+
+/* services section styling  */
+
+.services {
+    padding: 2% 10%;
+}
+
+.services h2 {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+/* .service1 styling  */
+.services .service1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 0px;
+}
+
+.services .service1 .service1-left {
+    padding: 6rem;
+}
+
+.services .service1 .service1-left h3 {
+    font-size: 3rem;
+}
+
+.services .service1 .service1-left p {
+    font-weight: 200;
+    color: #8c8f94;
+    margin: 20px 0px;
+}
+
+.services .service1 .service1-left button {
+    color: white;
+    background-color: #8bb7a2;
+    border: 1px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.services .service1 .service1-right img {
+    height: 34rem;
+    width: 34rem;
+}
+
+
+
+/* service2 styling  */
+.services .service2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .service2 .service2-right {
+    padding: 6rem;
+}
+
+.services .service2 .service2-right h3 {
+    font-size: 3rem;
+}
+
+.services .service2 .service2-right p {
+    color: #8c8f94;
+    margin: 20px 0px;
+}
+
+.services .service2 .service2-right button {
+    color: white;
+    background-color: #8bb7a2;
+    border: 1px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.services .service2 .service2-left img {
+    height: 34rem;
+    width: 34rem;
+}
+
+/* service three styling  */
+.services .service3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 0px;
+}
+
+.services .service3 .service3-left {
+    padding: 6rem;
+}
+
+.services .service3 .service3-left h3 {
+    font-size: 3rem;
+}
+
+.services .service3 .service3-left p {
+    font-weight: 200;
+    color: #8c8f94;
+    margin: 20px 0px;
+}
+
+.services .service3 .service3-left button {
+    color: white;
+    background-color: #8bb7a2;
+    border: 1px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.services .service3 .service3-right img {
+    height: 34rem;
+    width: 34rem;
+}
