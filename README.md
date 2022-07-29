@@ -1,4 +1,4 @@
-# project12-ineuron-hc
+# Project-12 | ineuron | HTML and CSS
 
 By prajwal zingare
 
