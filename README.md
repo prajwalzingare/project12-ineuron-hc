@@ -1,4 +1,4 @@
-# Project-12 | ineuron | HTML and CSS
+# Project-12 | ineuron | HTML and CSS | Buisness Landing Page
 
 By prajwal zingare
 
@@ -14,14 +14,17 @@ By prajwal zingare
 ![HTML & CSS-Assighnment-project](https://img.shields.io/badge/HTML--CSS-Project--11-orange)
 
 
-🔗Go Live : [Project-12](https://project12-ineuron-hc.netlify.app/)
 
 ---
+
 
 ![myproject](./images/Screenshot%20(25).png)
 
 ![myproject](./images/Screenshot%20(26).png)
 
+
+
+[ <img src= "https://img.shields.io/badge/Go LiVE-1DA1F?style=for-the-badge&logo=&logoColor=white" />](https://project12-ineuron-hc.netlify.app/) 
 ---
 ## What I learned from this Project
   - I learned about image adjustment.
