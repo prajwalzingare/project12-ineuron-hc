@@ -256,6 +256,7 @@ nav .navbar-btn {
 
 .services .service1 .service1-left {
     padding: 6rem;
+    /* text-align: center; */
 }
 
 .services .service1 .service1-left h3 {
@@ -301,6 +302,12 @@ nav .navbar-btn {
     .services .service1 .service1-left h3 {
         font-size: 1.5rem;
     }
+
+    .services .service1 .service1-left {
+        padding: 2rem;
+        text-align: center;
+    }
+
 }
 
 /* service2 styling  */
@@ -355,6 +362,11 @@ nav .navbar-btn {
 
     .services .service2 .service2-right h3 {
         font-size: 1.5rem;
+    }
+
+    .services .service2 .service2-right {
+        padding: 2rem;
+        text-align: center;
     }
 }
 
@@ -413,6 +425,11 @@ nav .navbar-btn {
 
     .services .service3 .service3-left h3 {
         font-size: 1.5rem;
+    }
+
+    .services .service3 .service3-left {
+        padding: 2rem;
+        text-align: center;
     }
 }
 
