@@ -22,6 +22,26 @@
           <div class="nav-logo">
             <img src="./images/Logo.png" alt="" />
           </div>
+
+          <div class="hamburger">
+            <svg viewBox="0 0 100 80" width="30" height="30">
+              <rect fill="#FFFFFF" width="100" height="10"></rect>
+              <rect fill="#FFFFFF" y="30" width="100" height="10"></rect>
+              <rect fill="#FFFFFF" y="60" width="100" height="10"></rect>
+            </svg>
+          </div>
+
+          <div class="mobile-list-items">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Pages</li>
+              <li>Agent</li>
+              <li>Blog</li>
+              <li>Subscribe</li>
+            </ul>
+          </div>
+
           <div class="list-items">
             <ul>
               <li>Home</li>
@@ -34,14 +54,15 @@
           </div>
           <button class="navbar-btn">Lets talk</button>
         </nav>
-
+        <!-- home section  -->
         <div class="home">
           <div class="home-left">
             <img src="./images/Meeting.jpg" alt="" />
           </div>
           <div class="home-right">
             <h1>
-              Empowerin your buisness with <br />
+              Empowering your <br />
+              buisness with <br />
               the best solution.
             </h1>
             <p>
@@ -59,6 +80,7 @@
         </div>
       </section>
 
+      <!-- information section  -->
       <section class="information">
         <div class="info">
           <h2>We Connect your businesses with your target</h2>
@@ -87,6 +109,7 @@
         <img class="info-img" src="./images/metting2.jpg" alt="" />
       </section>
 
+      <!-- service section styling  -->
       <section class="services">
         <h2>
           We have made your care <br />
@@ -271,5 +294,13 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const mobileNavbar = document.querySelector(".mobile-list-items");
+      hamburger.addEventListener("click", () => {
+        mobileNavbar.classList.toggle("show-navbar");
+      });
+    </script>
   </body>
 </html>
